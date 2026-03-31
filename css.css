@@ -1,0 +1,453 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px 35px;
+}
+body {
+    background-color: #fcfcfc;
+}
+.logo {
+    color: #0f5f73;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25;
+}
+.topbutton {
+    font-size: 20px;
+    color: #0f5f73;
+    margin: 0px 20px;
+    transition: color 0.6s;
+    font-family: Arial, sans-serif;
+}
+.topbutton:hover {
+    color: #00e3f3;
+}
+.long {
+    text-align: center;
+    font-weight: 600;
+}
+.welcome {
+    text-align: center;
+}
+h1 {
+    color: #7e7e7e;
+}
+.leader {
+    display: block;
+    border: none;
+    padding: 30px;
+    border-radius: 4px;
+    height:fit-content;
+}
+.cjhealey {
+    text-align: left;
+    max-width: 700px;
+    min-width: 700px;
+    display: flex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    word-spacing: 13px;
+    text-spacing-trim: 5px;
+    color:#666666;
+    font-weight: 350;
+}
+.image {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.fuhthisshi {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+    flex-wrap: wrap;
+    background-color: #0f5f73;
+}
+.card {
+    width: 350px;
+    text-align: center;
+}
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 4px;
+    }
+.buttonbelow {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 15px 25px;
+    border: 2px solid #ffff;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.specificbutton {
+    background-color: #0f5f73;
+    border: 2px solid #fff;
+    transition: background-color 0.15s;
+    padding: 10px 20px;
+    font-family: sans-serif;
+    width: 250px;
+}
+.specificbutton:hover {
+    background-color: #ececec;
+}
+.specificbutton a:visited {
+    color: #fff;
+}
+.generalinquiries {
+    font-family: sans-serif;
+    text-align: left;
+    color: #000;
+}
+.generalinquiries strong {
+    color: #000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+}
+.generalinquiries a {
+    color: #00e3f3;
+}
+.generalinquiries a:visited {
+    color:#00e3f3;
+}
+.mainstuff {
+    display: flex;
+}
+.imagery {
+    padding-left: 800px;
+    padding-right: 60px;
+    padding-top: 60px;
+    height: 200px;
+}
+.h1 {
+    color: #fff;
+    display: grid;
+  align-items: end;
+}
+.topbit {
+    background-image: url(screenshot.png);
+    height: 350px;
+    width: 100%;
+    
+}
+.h2 {
+    color: #0f5f73
+}
+
+.mrhealeysdescription {
+    max-width: 1000px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+.mrhealey {
+    display: flex;
+}
+.mrhealeypicture {
+    padding: 10px;
+}
+.mrhealeysname {
+    font-family: sans-serif;
+    color: #0f5f73;
+    font-weight: 600;       
+}
+
+
+
+
+
+.mrheneghansdescription {
+    max-width: 1000px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+}
+.mrheneghan {
+    display: flex;
+    background-color: #0f5f73;
+}
+.mrheneghanpicture {
+    padding: 10px;
+}
+.mrheneghansname {
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: 600;       
+}
+
+
+
+
+
+.mrsbicknellsdescription {
+    max-width: 1000px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+.mrsbicknell {
+    display: flex;
+}
+.mrsbicknellpicture {
+    padding: 10px;
+}
+.mrsbicknellsname {
+    font-family: sans-serif;
+    color: #0f5f73;
+    font-weight: 600;       
+}
+
+
+
+
+.mrsstrongsdescription {
+    max-width: 1000px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+}
+.mrsstrong {
+    display: flex;
+    background-color: #0f5f73;
+}
+.mrstrongpicture {
+    padding: 20px 10px;
+}
+.mrsstrongsname {
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: 600;       
+}
+
+
+
+.mrlewissdescription {
+    max-width: 1000px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+.mrlewis {
+    display: flex;
+}
+.mrlewispicture {
+    padding: 10px;
+}
+.mrlewissname {
+    font-family: sans-serif;
+    color: #0f5f73;
+    font-weight: 600;       
+}
+
+
+
+
+.mrswingsdescription {
+    max-width: 1000px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+}
+.mrswing {
+    display: flex;
+    background-color: #0f5f73;
+}
+.mrwingpicture {
+    padding: 20px 10px;
+}
+.mrswingsname {
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: 600;       
+}
+
+
+
+
+
+.mrsjonessdescription {
+    max-width: 1000px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+.mrsjones {
+    display: flex;
+}
+.mrsjonespicture {
+    padding: 10px;
+}
+.mrsjonessname {
+    font-family: sans-serif;
+    color: #0f5f73;
+    font-weight: 600;       
+}
+.disclaimer {
+    color: #ff0000;
+}
+
+
+
+
+.mrsbeasleighsdescription {
+    max-width: 1000px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+}
+.mrsbeasleigh {
+    display: flex;
+    background-color: #0f5f73;
+}
+.mrbeasleighpicture {
+    padding: 20px 10px;
+}
+.mrsbeasleighsname {
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: 600;       
+}
+
+
+
+.mrbeecheysdescription {
+    max-width: 1000px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+.mrbeechey {
+    display: flex;
+}
+.mrbeecheypicture {
+    padding: 10px;
+}
+.mrbeecheysname {
+    font-family: sans-serif;
+    color: #0f5f73;
+    font-weight: 600;       
+}
+
+.thatimage {
+    padding: 20px;
+}
+
+.textandimageANDbutton {
+    display: flex;
+    padding: 10px;
+}
+
+.whanauguide {
+    max-width: 200px;
+    background-color: #fff;
+    border: 1px solid #000;
+    height: 50px;
+}
+
+.whanaulink {
+    color: #444444;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.bodytextstuff {
+    padding: 10px;
+}
+
+.THEtext {
+    max-width: 750px;
+}
+
+.velcawm {
+    color:#10d0dd;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.ANDHESACRIFICIESTHETEXTTT {
+    font-family: sans-serif;
+    word-spacing: 10px;
+    color: #404040;
+    font-size: 20px;
+}
+
+.givinghead {
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.head {
+    background-color: #000;
+}
+
+.lotsofbuttons {
+    background-color: #0f5f73;
+    padding: 50px 95px; 
+    display: flex;
+    justify-content: center;
+}
+
+.smalltopbuttons {
+    padding: 1px 10px;
+}
+
+.imgandtxt {
+    display: flex;
+}
+
+.h2wellbeing {
+    color: #00e3f3;
+    font-family: sans-serif;
+    font-weight: 700;
+    max-width: 700px;
+}
+
+.wellbeingtandi {
+    display: flex;
+}
+
+.thisenvironment {
+    max-width: 700px;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+.wellbeingtext {
+    max-width: 700px;
+}
+
+.atawhai {
+    background-color: #0f5f73;
+}
+
+.atlongbay {
+    color: #0f5f73;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+.atawhaiforkindness {
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.row1 {
+    padding: 5px 15px;
+}
+
+.thebuttons {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #0f5f73;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.sculpting {
+    padding: 10px;
+}
+
+.attendancetext {
+    font-family: sans-serif;
+}
+.ul {
+    font-family: sans-serif;
+}
+.attendancetext a {
+    font-family: sans-serif;
+    color:#00e3f3
+}
